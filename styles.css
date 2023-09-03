@@ -1,0 +1,29 @@
+body{
+    background-image: url(truck.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: white;
+}
+
+#title, #description{
+    text-align: center;
+    color: red;
+    font-size: 2em;
+}
+
+label, input {
+    display: flex ;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+
+form{
+    margin: 0 auto 1.25rem auto;
+    background-color: rgba(128, 128, 128, .6);
+}
